@@ -1,0 +1,30 @@
+﻿Program MyNamespace MyProgram [
+
+	declare x char;
+	let x = 'f';
+	print x;
+	
+	declare y string;
+	let y = "hello";
+
+	if x > 6
+	[
+		print 'e';
+	]
+	
+	while x > 3
+	[
+		print x;
+		let x = x - 1.1;
+	]
+
+/*	
+	function convert_char_to_real(f as char) returns real
+	[
+		print f;
+		declare g as real;
+		let g = f;
+		return g;
+	]
+*/
+]

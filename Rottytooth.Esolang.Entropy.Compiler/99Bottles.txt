@@ -1,0 +1,22 @@
+﻿Program Rottytooth NinetyNineBottles [
+
+	declare count real;
+	let count = 99;
+	
+	while count > 0
+	[
+		if count < 99
+		[
+			print count;
+			print " bottles of beer on the wall.\n";
+		]
+		print count;
+		print " bottles of beer on the wall, ";
+		print count;
+		print " bottles of beer.\nTake one down, pass it around, ";
+		
+		let count = count - 1;
+	]
+	
+	print " no more bottles of beer on the wall.";
+]
