@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rottytooth.Entropy.Compiler", "Rottytooth.Entropy.Compiler\Rottytooth.Entropy.Compiler.csproj", "{873AD065-6A40-4AE2-8123-B5543959A764}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rottytooth.Entropy", "Rottytooth.Entropy\Rottytooth.Entropy.csproj", "{C374BE9D-DBB0-4537-B991-24AA8FD21B97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{873AD065-6A40-4AE2-8123-B5543959A764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873AD065-6A40-4AE2-8123-B5543959A764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873AD065-6A40-4AE2-8123-B5543959A764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873AD065-6A40-4AE2-8123-B5543959A764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2AC1785-2194-451F-8191-804F57B428D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AC1785-2194-451F-8191-804F57B428D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AC1785-2194-451F-8191-804F57B428D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AC1785-2194-451F-8191-804F57B428D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C374BE9D-DBB0-4537-B991-24AA8FD21B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C374BE9D-DBB0-4537-B991-24AA8FD21B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C374BE9D-DBB0-4537-B991-24AA8FD21B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C374BE9D-DBB0-4537-B991-24AA8FD21B97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A2833EE-B641-46C9-A71C-2CC08A8FF7C2}
+	EndGlobalSection
+EndGlobal

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Irony.Parsing;
 
-namespace Rottytooth.Esolang.Entropy
+namespace Rottytooth.Entropy
 {
     public class TreeCrawler
     {

@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using Irony.Ast;
-using Irony.Interpreter;
 using Irony.Parsing;
-using Rottytooth.Esolang;
 
-namespace Rottytooth.Esolang.Entropy
+namespace Rottytooth.Entropy
 {
     internal class Program
     {
@@ -27,7 +24,7 @@ namespace Rottytooth.Esolang.Entropy
             if (inputPath == null)
             {
                 Console.WriteLine();
-                Console.WriteLine("No .vge source file indicated");
+                Console.WriteLine("No .en source file indicated");
                 PrintHelp();
                 return INVALID_PARAMETER;
             }
@@ -63,7 +60,7 @@ namespace Rottytooth.Esolang.Entropy
                     PrintHelp();
                     return -2;
                 }
-                Rottytooth.Esolang.Entropy.Real.MutationRate = mutRate;
+                Rottytooth.Entropy.Real.MutationRate = mutRate;
             }
 
             EntropyGrammar grammar = new EntropyGrammar();

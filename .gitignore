@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages/Irony.0.9.1
+/.vs
+/Rottytooth.Esolang.Entropy.Compiler/obj/Debug
+/Rottytooth.Esolang.Entropy.Compiler/bin/Debug/SamplePrograms
+/Rottytooth.Entropy/bin/Debug
+/Rottytooth.Entropy/obj/Debug
+/Rottytooth.Entropy.Compiler/bin/Debug
+/Rottytooth.Entropy.Compiler/obj/Debug

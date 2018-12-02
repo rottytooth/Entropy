@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.CSharp;
 
-namespace Rottytooth.Esolang.Entropy
+namespace Rottytooth.Entropy
 {
     internal class CodeGenerator
     {
@@ -14,7 +14,7 @@ namespace Rottytooth.Esolang.Entropy
             CSharpCodeProvider codeProvider = new CSharpCodeProvider();
 
             System.CodeDom.Compiler.CompilerParameters parameters = new CompilerParameters();
-            parameters.ReferencedAssemblies.Add("Rottytooth.Esolang.Entropy.dll");
+            parameters.ReferencedAssemblies.Add("Rottytooth.Entropy.dll");
             parameters.GenerateExecutable = true;
             parameters.OutputAssembly = outputFileName;
             CompilerResults results = codeProvider.CompileAssemblyFromSource(parameters, cSharpCode);

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Rottytooth.Esolang.Entropy
+namespace Rottytooth.Entropy
 {
     [System.Diagnostics.DebuggerDisplay("{Value}")]
     public class String

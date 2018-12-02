@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Irony.Parsing;
 
-namespace Rottytooth.Esolang.Entropy
+namespace Rottytooth.Entropy
 {
     public class CodeConverter
     {
@@ -76,7 +76,7 @@ namespace Rottytooth.Esolang.Entropy
 
                 case "CharLiteral":
                     currentVariable = "CONST" + _constCount.ToString();
-                    constDeclarations.AppendLine("Rottytooth.Esolang.Entropy.Char " + 
+                    constDeclarations.AppendLine("Rottytooth.Entropy.Char " + 
                         currentVariable + " = " + currentNode.Token.Text + ";");
 
                     retProgram.Append(currentVariable);
@@ -85,7 +85,7 @@ namespace Rottytooth.Esolang.Entropy
 
                 case "StringLiteral":
                     currentVariable = "CONST" + _constCount.ToString();
-                    constDeclarations.AppendLine("Rottytooth.Esolang.Entropy.String " +
+                    constDeclarations.AppendLine("Rottytooth.Entropy.String " +
                         currentVariable + " = " + currentNode.Token.Text + ";");
 
                     retProgram.Append(currentVariable);
@@ -94,7 +94,7 @@ namespace Rottytooth.Esolang.Entropy
 
                 case "Number":
                     currentVariable = "CONST" + _constCount.ToString();
-                    constDeclarations.AppendLine("Rottytooth.Esolang.Entropy.Real " +
+                    constDeclarations.AppendLine("Rottytooth.Entropy.Real " +
                         currentVariable + " = " + currentNode.Token.Text + ";");
 
                     retProgram.Append(currentVariable);
@@ -209,7 +209,7 @@ namespace Rottytooth.Esolang.Entropy
                 }
             }
 
-            retProgram.AppendLine("Rottytooth.Esolang.Entropy." + variableType + " " + variableName + ";");
+            retProgram.AppendLine("Rottytooth.Entropy." + variableType + " " + variableName + ";");
         }
 
         private void BuildProgramHeader(ParseTreeNode currentNode, StringBuilder retProgram, StringBuilder constDeclarations)
@@ -253,7 +253,7 @@ namespace Rottytooth.Esolang.Entropy
         {
             StringBuilder header = new StringBuilder();
             header.AppendLine("using System;");
-            header.AppendLine("using Rottytooth.Esolang.Entropy;");
+            header.AppendLine("using Rottytooth.Entropy;");
             header.AppendLine();
             header.AppendLine("namespace " + namespaceID);
             header.AppendLine("{");
@@ -265,8 +265,8 @@ namespace Rottytooth.Esolang.Entropy
             // here we are setting the resulting program to use the mutation rate that's currently set in Real since we know this was set by the compiler as a setting
             // kind of a round-about way of getting the value here, but is good enough for now
             // FIXME: let's make this less confusing
-            header.AppendLine("\tRottytooth.Esolang.Entropy.Real.MutationRate = " +
-                              Rottytooth.Esolang.Entropy.Real.MutationRate.ToString() + "F;");
+            header.AppendLine("\tRottytooth.Entropy.Real.MutationRate = " +
+                              Rottytooth.Entropy.Real.MutationRate.ToString() + "F;");
             header.AppendLine(constDeclarePlaceholder); // place holder for string variables
             return header.ToString();
         }
