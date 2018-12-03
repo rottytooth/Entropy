@@ -10,5 +10,10 @@ The compiler takes these options:
 
 For more info:
 
-    Entropy lives here: http://danieltemkin.com/Entropy
-    More details: http://esolangs.org/wiki/Entropy
+    See Entropy in action with Drunk Eliza: <http://danieltemkin.com/DrunkEliza>
+
+    Entropy lives here: <http://danieltemkin.com/Entropy>
+
+    More details: <http://esolangs.org/wiki/Entropy>
+
+    JS version here: <https://github.com/ndrwhr/entropy>
