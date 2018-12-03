@@ -8,7 +8,7 @@ The compiler takes these options:
     /d -- Debug mode: parse tree and print to screen
     /c -- Transpile to C#
 
-For more info:
+**For more info:**
 
 See Entropy in action with Drunk Eliza: http://danieltemkin.com/DrunkEliza
 
