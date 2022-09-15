@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj": {}
+  },
+  "projects": {
+    "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj",
+        "projectName": "Rottytooth.Entropy.Compiler",
+        "projectPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj",
+        "packagesPath": "/home/iokg/.nuget/packages/",
+        "outputPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/iokg/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Irony": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
