@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "8vsxG7fdjiUrOtOzpbK8wus29AuQgOOiRn/q1nu9FP77832wyuGyJqxvrCMAgzqys1zP3n1zgQvZH/4Bvv9p2A==",
+  "success": true,
+  "projectFilePath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/SamplePrograms/99Bottles.en.compiled/99Bottles.en.compiled.csproj",
+  "expectedPackageFiles": [
+    "/home/iokg/.nuget/packages/irony/1.1.0/irony.1.1.0.nupkg.sha512",
+    "/home/iokg/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/Release/net6.0/Rottytooth.Entropy.Compiler.csproj.AssemblyReference.cache
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/Release/net6.0/Rottytooth.Entropy.Compiler.GeneratedMSBuildEditorConfig.editorconfig
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/Release/net6.0/Rottytooth.Entropy.Compiler.AssemblyInfoInputs.cache
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/Release/net6.0/Rottytooth.Entropy.Compiler.AssemblyInfo.cs
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/Release/net6.0/Rottytooth.Entropy.Compiler.csproj.CoreCompileInputs.cache

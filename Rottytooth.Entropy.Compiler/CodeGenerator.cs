@@ -4,6 +4,7 @@ using System.CodeDom.Compiler;
 using System.Linq;
 using System.Text;
 using Microsoft.CSharp;
+using System.CodeDom;
 
 namespace Rottytooth.Entropy
 {

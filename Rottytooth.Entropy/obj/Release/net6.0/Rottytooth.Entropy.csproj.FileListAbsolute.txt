@@ -1,0 +1,12 @@
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/bin/Release/net6.0/Rottytooth.Entropy.deps.json
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/bin/Release/net6.0/Rottytooth.Entropy.dll
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/bin/Release/net6.0/ref/Rottytooth.Entropy.dll
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/bin/Release/net6.0/Rottytooth.Entropy.pdb
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.csproj.AssemblyReference.cache
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.GeneratedMSBuildEditorConfig.editorconfig
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.AssemblyInfoInputs.cache
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.AssemblyInfo.cs
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.csproj.CoreCompileInputs.cache
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.dll
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/ref/Rottytooth.Entropy.dll
+/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy/obj/Release/net6.0/Rottytooth.Entropy.pdb

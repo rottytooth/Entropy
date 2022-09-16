@@ -11,18 +11,6 @@
           "lib/netstandard2.0/Irony.dll": {}
         }
       },
-      "System.CodeDom/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.CodeDom.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {}
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "Rottytooth.Entropy/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -52,40 +40,15 @@
         "lib/netstandard2.0/Irony.dll"
       ]
     },
-    "System.CodeDom/6.0.0": {
-      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
-      "type": "package",
-      "path": "system.codedom/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.CodeDom.dll",
-        "lib/net461/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.6.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "Rottytooth.Entropy/1.0.0": {
       "type": "project",
-      "path": "../Rottytooth.Entropy/Rottytooth.Entropy.csproj",
-      "msbuildProject": "../Rottytooth.Entropy/Rottytooth.Entropy.csproj"
+      "path": "../../../Rottytooth.Entropy/Rottytooth.Entropy.csproj",
+      "msbuildProject": "../../../Rottytooth.Entropy/Rottytooth.Entropy.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Irony >= 1.1.0",
-      "Rottytooth.Entropy >= 1.0.0",
-      "System.CodeDom >= 6.0.0"
+      "Rottytooth.Entropy >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -94,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj",
-      "projectName": "Rottytooth.Entropy.Compiler",
-      "projectPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/Rottytooth.Entropy.Compiler.csproj",
+      "projectUniqueName": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/SamplePrograms/99Bottles.en.compiled/99Bottles.en.compiled.csproj",
+      "projectName": "99Bottles.en.compiled",
+      "projectPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/SamplePrograms/99Bottles.en.compiled/99Bottles.en.compiled.csproj",
       "packagesPath": "/home/iokg/.nuget/packages/",
-      "outputPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/obj/",
+      "outputPath": "/media/MassMedia/iokg/c#/Entropy/Rottytooth.Entropy.Compiler/SamplePrograms/99Bottles.en.compiled/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/iokg/.nuget/NuGet/NuGet.Config"
@@ -128,16 +91,6 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
-        "dependencies": {
-          "Irony": {
-            "target": "Package",
-            "version": "[1.1.0, )"
-          },
-          "System.CodeDom": {
-            "target": "Package",
-            "version": "[6.0.0, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
