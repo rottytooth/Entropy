@@ -1,0 +1,8 @@
+X:\Entropy\Rottytooth.Entropy\bin\Release\Rottytooth.Entropy.dll
+X:\Entropy\Rottytooth.Entropy\bin\Release\Rottytooth.Entropy.pdb
+X:\Entropy\Rottytooth.Entropy\bin\Release\Irony.dll
+X:\Entropy\Rottytooth.Entropy\obj\Release\Rottytooth.Entropy.csproj.AssemblyReference.cache
+X:\Entropy\Rottytooth.Entropy\obj\Release\Rottytooth.Entropy.csproj.CoreCompileInputs.cache
+X:\Entropy\Rottytooth.Entropy\obj\Release\Rottytooth.Entropy.csproj.CopyComplete
+X:\Entropy\Rottytooth.Entropy\obj\Release\Rottytooth.Entropy.dll
+X:\Entropy\Rottytooth.Entropy\obj\Release\Rottytooth.Entropy.pdb
