@@ -1,6 +1,9 @@
 # Entropy
 Compiler for Entropy, a programming language where all data is in a constant state of decay. Entropy forces the programmer to give up on precise control, and get an idea across in the short time before their program falls apart. 
 
+> **Note**
+UPDATE: It's the language xkcd 3062 describes, written 14 years before xkcd 3062!
+
 The compiler takes these options:
 
     /h or /? -- print help screen
